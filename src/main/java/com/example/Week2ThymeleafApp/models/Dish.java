@@ -17,6 +17,4 @@ public class Dish {
     private double price;
 
 
-
-
 }
