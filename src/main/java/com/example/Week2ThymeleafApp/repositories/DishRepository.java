@@ -13,8 +13,7 @@ public class DishRepository {
         //そのため、以下のように書くと、コードが冗長になる
 //        Dish d1 = Dish.builder().id(1).name("Pizza").category("Main Course").price(10.0).build();
 //        Dish d2 = Dish.builder().id(2).name("Pasta").category("Main Course").price(8.0).build();
-//        Dish d3 = Dish.builder().id(3).name("Salad").category("Appetizer").price(5.0).build();
-//        Dish d4 = Dish.builder().id(4).name("Ice Cream").category("Dessert").price(3.0).build();
+//        Dish d3 = Dish.builder().id(3).name("Salad").category("Appetizer").price(5.0).build();//        Dish d4 = Dish.builder().id(4).name("Ice Cream").category("Dessert").price(3.0).build();
 
 
         //同じものだけど、書き方をが２種類あるので、その例を示している

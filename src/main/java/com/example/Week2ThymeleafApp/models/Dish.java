@@ -11,9 +11,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class Dish {
+    private int id;
     private String name;
     private String category;
-    private int id;
     private double price;
 
 
