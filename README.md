@@ -53,4 +53,6 @@ This is a Java MVC application built using Spring Boot. It serves as a web appli
 
 To run the application, start the Spring Boot server. Access `home.html` as the initial page, then navigate to `menu.html` to view the list of dishes.
 
+![homeImage](homeImage)
+
 
