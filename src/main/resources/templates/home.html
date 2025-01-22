@@ -1,10 +1,26 @@
 <!-- src/main/resources/templates/homePage.html -->
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
     <title>Home Page</title>
 </head>
 <body>
-<h1>aaaaaa</h1>
+
+<div class="main">
+    <div class="content">
+        <div class="card" style="width: 18rem;">
+<!--            <img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+                <h1>ようこそ、 <span class="card-title" th:text="${rName}"></span> へ！！！</h1>
+
+                <p class="card-text">Welcome to the best restaurant in toronto.</p>
+                <a href="#" class="btn btn-primary">Go to menu</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

@@ -1,0 +1,52 @@
+.content {
+    margin: 100px;
+    min-height: 65vh;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+.card {
+    width: 320px;
+    margin: 100px auto;
+}
+
+.card-body {
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#restaurant-title {
+    color: cadetblue;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 10px 100px;
+    background-color: cornflowerblue;
+}
+
+header .nav-item a {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+}
+
+footer .card-header {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.footer-text {
+    color: white;
+}
